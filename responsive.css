@@ -1,0 +1,153 @@
+
+
+
+@media screen and (max-width:1400px) {
+.client-box{
+    width: 33.3%;
+}
+.home-container{
+    flex-direction: column;
+    justify-content: center;
+}
+.img-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #ffffff3e;
+}
+.home-alt{
+    text-align: center;
+}
+.img-section{
+    margin-bottom: 50px;
+}
+.img-section,.home-content{
+    width: 100%;
+}
+.text-gradient{
+    text-align: center;
+}
+}
+@media screen and (max-width:1200px) {
+    .gif-container{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .gif{
+        width: 100%;
+    }
+    .social-links{justify-content: center;}
+        .video-card{
+            width: 50%;
+            height: 300px;
+        }
+}
+@media screen and (max-width:1050px) {
+    .full-sec{
+        margin: 0;
+        border-radius: 0;
+        border: 0;
+    }
+    .portfolio-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .video-card {
+            width: 500px;
+            height: 300px;
+        }
+    .dot-effect{
+        display: none;
+    }
+    .mobile-e {
+        display: block;
+    }
+    .nav-links-container{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: -105%;
+        background: #000000;
+        width: 300px;
+        transition: .4s ease all;
+        height: 100vh;
+    }
+    .nav-links-container a{
+        padding:20px 0px;
+        text-align: left;
+    }
+    .mail-section{
+        display: none;
+    }
+    .nav-container{
+        display: flex;
+        justify-content: start;
+    }
+    .logo{
+        justify-content: start;
+        width: 5000%;
+    }
+   
+    .logo img{
+        width: 150px !important;
+    }
+    .menu-btn{
+        display: block;
+    }
+}
+@media screen and (max-width:900px) {
+    .text-gradient{
+        font-size: 28px;
+    }
+    .home-alt{
+        font-size: 16px;
+    }
+    .img-section img{
+        width: 200px;
+        height: 200px;
+    }
+    .client-box{
+        width: 50%;
+    }
+    .section{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .nav-links-container {
+           
+            width: 80%;}
+
+    .text-gradient{
+        font-size: 22px;
+    }
+    .video-card{
+        width: 350px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .client-container{
+        height: auto;
+        justify-content: start;
+        flex-wrap: nowrap;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .client-box{
+        width: 300px;
+    }
+}
+
+
+@media screen and (min-width: 1050px) {
+    .overlay {
+        display: none !important;
+    }
+
+    .nav-links-container {
+        left: 0% !important;
+    }
+}
